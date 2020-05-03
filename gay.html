@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Gay</title>
+		<style>
+			body
+			{
+				background: linear-gradient(to bottom right, #FF0000 0%, #FF8C00 20%, #FFD700 40%, #32CD32 60%, #0000FF 80%, #9932CC 100%);
+				text-align: center;
+				padding: 50;
+				font-size: 100;
+				color: white;
+				-webkit-text-stroke-width: 2px;
+  				-webkit-text-stroke-color: black;
+			}
+			button
+			{
+				font-size: 100;
+				border-style: solid;
+				border-width: thick;
+				background-color: black;
+				color: white;
+				border-color: white;
+			}
+			button:hover
+			{
+				border-color: black;
+				color: black;
+				background-color: white;
+				opacity: 50%;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<button onclick="Stuff()">Press for a surprise!</button>
+		<p id="gay" style="display:none">Ur gay!</p>
+		
+		<script>
+			function Stuff()
+			{
+				document.getElementById("gay").style.display = "";
+			}
+		</script>
+	</body>
+</html>
